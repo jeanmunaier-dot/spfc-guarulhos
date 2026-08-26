@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 224" width="200" height="224">
+  <clipPath id="in"><path d="M21 19h158v97c0 37-35 65-79 85-44-20-79-48-79-85V19Z"/></clipPath>
+  <path d="M8 6h184v110c0 46-40 78-92 102C48 194 8 162 8 116V6Z" fill="#fff"/>
+  <path d="M15 13h170v103c0 41-37 71-85 93-48-22-85-52-85-93V13Z" fill="#000"/>
+  <path d="M21 19h158v97c0 37-35 65-79 85-44-20-79-48-79-85V19Z" fill="#fff"/>
+  <g clip-path="url(#in)">
+    <polygon points="10,86 96,86 84,240 -12,240" fill="#FE0000"/>
+    <polygon points="104,86 190,86 212,240 116,240" fill="#000"/>
+    <rect x="8" y="10" width="184" height="69" fill="#000"/>
+  </g>
+  <text x="100" y="64" text-anchor="middle" font-family="Arial Narrow,Impact,Haettenschweiler,sans-serif" font-weight="700" font-size="52" fill="#fff">SPFC</text>
+</svg>
