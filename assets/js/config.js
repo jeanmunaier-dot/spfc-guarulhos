@@ -36,13 +36,13 @@ window.SPFC = {
   /* ---- Categorias por idade ---- */
   categorias: [
     { id: "baby",  nome: "Baby Foot", idade: "4 a 6 anos",   min: 4,  max: 6,
-      desc: "Primeiro contato com a bola: coordenação, equilíbrio e muita brincadeira." },
+      desc: "Aqui começa a relação com a bola: coordenação, equilíbrio e atividades lúdicas." },
     { id: "sub9",  nome: "Sub-9",     idade: "7 a 9 anos",   min: 7,  max: 9,
-      desc: "Fundamentos do futebol: domínio, passe, condução e trabalho em equipe." },
+      desc: "A brincadeira vira aprendizado: passe, domínio, condução e jogo coletivo." },
     { id: "sub12", nome: "Sub-12",    idade: "10 a 12 anos", min: 10, max: 12,
-      desc: "Leitura de jogo, posicionamento tático e disputa em campeonatos." },
+      desc: "Posicionamento, leitura de jogo, trabalho por posição e competições." },
     { id: "sub15", nome: "Sub-15",    idade: "13 a 15 anos", min: 13, max: 15,
-      desc: "Alto rendimento, preparação física e observação para peneiras." }
+      desc: "Preparação física, organização tática e desenvolvimento competitivo." }
   ],
 
   /* ---- Grade padrão (fallback) --------------------------------

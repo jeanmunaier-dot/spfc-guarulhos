@@ -68,15 +68,15 @@ def hero(eyebrow, titulo, texto):
   </div>
 </section>
 <div class="marquee" aria-hidden="true"><div>
-  <span>Família Tricolor</span><span>Made in Cotia</span><span>Escola Oficial SPFC</span><span>Guarulhos</span><span>Aula experimental grátis</span>
+  <span>Família Tricolor</span><span>Escola Oficial do São Paulo FC</span><span>Guarulhos</span><span>Aula experimental gratuita</span><span>4 a 15 anos</span>
 </div></div>
 """.format(e=eyebrow, t=titulo, x=texto)
 
 CTA = u"""<section class="cta-final">
   <div class="wrap rv">
-    <h2>Vem conhecer no campo</h2>
-    <p>A aula experimental é gratuita e sem compromisso. Escolha o dia e o horário em menos de um minuto.</p>
-    <p style="margin-top:2rem"><a class="btn btn-lg" style="background:#000" href="agendar.html">Agendar aula grátis</a></p>
+    <h2>E se o próximo passo começar com uma aula?</h2>
+    <p>Você não precisa decidir agora se seu filho vai fazer matrícula. Primeiro, deixe ele conhecer a escola e entrar em campo. A aula experimental é gratuita e sem compromisso.</p>
+    <p style="margin-top:2rem"><a class="btn btn-lg" style="background:#000" href="agendar.html">Quero agendar a aula gratuita</a></p>
   </div>
 </section>
 """
@@ -87,24 +87,24 @@ PAGINAS = {}
 # ---------------------------------------------------------- A ESCOLA
 PAGINAS["a-escola.html"] = dict(
     title=u"A Escola | Escola de Futebol SPFC Guarulhos",
-    desc=u"Conheça a Escola Oficial de Futebol do São Paulo FC em Guarulhos: metodologia Made in Cotia, comissão técnica formada e calendário de competições.",
+    desc=u"Conheça a Escola Oficial de Futebol do São Paulo FC em Guarulhos: metodologia de formação, professores preparados e um calendário com campeonatos, festivais e amistosos.",
     nav="a-escola.html",
     corpo=hero(u"A escola",
                u"O São Paulo <span class='txt-red'>em Guarulhos</span>",
-               u"Somos uma unidade oficial licenciada do São Paulo Futebol Clube. Isso quer dizer método do clube, uniforme do clube e o escudo que seu filho já conhece — a poucos minutos de casa.") + u"""
+               u"Uma unidade oficial do São Paulo Futebol Clube. Aqui seu filho tem contato com a identidade, os valores e a metodologia do Tricolor — a poucos minutos de casa.") + u"""
 <section class="section">
   <div class="wrap">
     <div class="grid g-2" style="align-items:center;gap:3rem">
       <div class="rv">
         <span class="eyebrow">Nosso jeito</span>
-        <h2>Formar atleta é consequência.<br><span class="txt-red">Formar gente é o objetivo.</span></h2>
-        <p class="lead">Nem toda criança que passa por aqui vira jogador profissional — e tudo bem. Mas todas levam junto disciplina, rotina, respeito ao coletivo e a experiência de vestir uma camisa que significa alguma coisa.</p>
-        <p class="lead">O treino é dividido por faixa etária, conduzido por professores formados e organizado em ciclos: fundamentos, tática, competição.</p>
+        <h2>Mais do que aprender a jogar.<br><span class="txt-red">É viver o futebol.</span></h2>
+        <p class="lead">Não importa se seu filho já joga bem ou se ainda está dando os primeiros passos. Aqui, cada criança tem seu tempo — e o futebol é usado para desenvolver habilidades dentro e fora de campo: coordenação, disciplina, confiança, espírito de equipe e paixão pelo esporte.</p>
+        <p class="lead">O treino é organizado por faixa etária e conduzido por profissionais capacitados para trabalhar com crianças e adolescentes, respeitando cada fase do desenvolvimento.</p>
       </div>
       <div class="grid rv rv-d1" style="gap:1rem">
-        <article class="card"><div class="ico">&#127942;</div><h3>Unidade oficial</h3><p>Licenciada pelo São Paulo Futebol Clube, seguindo as diretrizes do programa de escolas do clube.</p></article>
-        <article class="card"><div class="ico">&#9917;</div><h3>Made in Cotia</h3><p>A metodologia que virou marca registrada da base tricolor, aplicada por idade e nível.</p></article>
-        <article class="card"><div class="ico">&#128101;</div><h3>Turmas pequenas</h3><p>Número limitado de alunos por horário para o professor conseguir corrigir individualmente.</p></article>
+        <article class="card"><div class="ico">&#127942;</div><h3>A força da marca São Paulo FC</h3><p>Uma unidade oficial do São Paulo Futebol Clube, com a identidade, os valores e a metodologia do Tricolor.</p></article>
+        <article class="card"><div class="ico">&#9917;</div><h3>Metodologia de formação</h3><p>Fundamentos e conceitos utilizados na formação de atletas do clube, respeitando a idade e o nível de cada turma.</p></article>
+        <article class="card"><div class="ico">&#128101;</div><h3>Turmas por faixa etária</h3><p>Uma criança de 5 anos não aprende futebol da mesma maneira que um adolescente de 14. Cada fase tem seus objetivos.</p></article>
       </div>
     </div>
   </div>
@@ -113,14 +113,14 @@ PAGINAS["a-escola.html"] = dict(
 <section class="section section-alt">
   <div class="wrap">
     <div class="head center rv">
-      <span class="eyebrow">Calendário</span>
-      <h2>Aqui a molecada joga de verdade</h2>
-      <p class="lead">Treino sem jogo cansa. Por isso o ano tem competição, festival e uma taça pra levantar.</p>
+      <span class="eyebrow">Mais do que treino</span>
+      <h2>Porque as melhores lembranças também acontecem fora da rotina</h2>
+      <p class="lead">Ao longo do ano, os alunos podem participar de diferentes experiências esportivas. Aqui, seu filho não vai apenas aprender a jogar futebol. Vai aprender a fazer parte de um time.</p>
     </div>
     <div class="grid g-3">
-      <article class="card rv"><div class="ico">&#127942;</div><h3>Campeonato interno</h3><p>Todas as categorias divididas em seleções, com tabela, disputa e final. É a festa do ano da Família Tricolor.</p></article>
+      <article class="card rv"><div class="ico">&#127942;</div><h3>Campeonatos internos</h3><p>Todas as categorias divididas em seleções, com tabela, disputa e final. É a festa do ano da Família Tricolor.</p></article>
       <article class="card rv rv-d1"><div class="ico">&#129351;</div><h3>Festivais e amistosos</h3><p>Jogos contra outras unidades e escolas da região, com arbitragem e uniforme oficial.</p></article>
-      <article class="card rv rv-d2"><div class="ico">&#128248;</div><h3>Copa Avaliação</h3><p>Momento em que a comissão técnica observa evolução individual e conversa com as famílias.</p></article>
+      <article class="card rv rv-d2"><div class="ico">&#128248;</div><h3>Momentos de integração</h3><p>Conquistas, desafios e aquela sensação que só quem já entrou em campo conhece.</p></article>
     </div>
   </div>
 </section>
@@ -129,12 +129,12 @@ PAGINAS["a-escola.html"] = dict(
   <div class="wrap">
     <div class="head center rv">
       <span class="eyebrow">Valores</span>
-      <h2>O que a gente cobra dentro de campo</h2>
+      <h2>O que o futebol ensina fora de campo</h2>
     </div>
     <div class="grid g-4">
-      <article class="card rv"><div class="ico">&#9200;</div><h3>Pontualidade</h3><p>Chegar no horário é parte do treino. Rotina constrói atleta.</p></article>
-      <article class="card rv rv-d1"><div class="ico">&#129309;</div><h3>Respeito</h3><p>Com o professor, com o companheiro e com o adversário. Sem exceção.</p></article>
-      <article class="card rv rv-d2"><div class="ico">&#128170;</div><h3>Esforço</h3><p>Talento ajuda, entrega decide. A gente elogia quem tenta de novo.</p></article>
+      <article class="card rv"><div class="ico">&#9200;</div><h3>Rotina</h3><p>Chegar no horário e manter a constância também faz parte do aprendizado.</p></article>
+      <article class="card rv rv-d1"><div class="ico">&#129309;</div><h3>Respeito</h3><p>Com o professor, com o companheiro e com o adversário.</p></article>
+      <article class="card rv rv-d2"><div class="ico">&#128170;</div><h3>Esforço</h3><p>Competir, comemorar, perder, tentar novamente e evoluir.</p></article>
       <article class="card rv rv-d3"><div class="ico">&#127775;</div><h3>Alegria</h3><p>É futebol, é infância. Treino sério não é treino triste.</p></article>
     </div>
   </div>
@@ -158,42 +158,53 @@ PAGINAS["turmas.html"] = dict(
     title=u"Turmas e horários | Escola de Futebol SPFC Guarulhos",
     desc=u"Baby Foot, Sub-9, Sub-12 e Sub-15: veja as categorias por idade, o que é trabalhado em cada uma e os dias de treino na unidade Guarulhos.",
     nav="turmas.html",
-    corpo=hero(u"Categorias",
+    corpo=hero(u"Cada idade, um jeito de aprender",
                u"Turmas de <span class='txt-red'>4 a 15 anos</span>",
-               u"Cada categoria tem objetivo, linguagem e intensidade próprios. Encontre a turma do seu filho e agende a experimental gratuita.") + u"""
+               u"Uma criança de 5 anos não aprende futebol da mesma maneira que um adolescente de 14. Por isso, nossas atividades são organizadas por faixa etária, com objetivos específicos para cada fase.") + u"""
 <section class="section">
   <div class="wrap">
     <div class="grid g-2">
 """ + turma_bloco("baby", u"Baby Foot", u"4 a 6 anos",
-                  u"A porta de entrada. Aqui o objetivo é a criança se apaixonar pela bola — o resto vem depois.",
-                  [u"Coordenação motora e equilíbrio", u"Primeiro contato com a bola", u"Jogos e brincadeiras dirigidas",
-                   u"Socialização e regras básicas", u"Sem cobrança de resultado"],
+                  u"Aqui começa a relação com a bola. De forma leve e divertida, as crianças desenvolvem coordenação, equilíbrio, percepção corporal e começam a entender o trabalho em equipe.",
+                  [u"Coordenação e equilíbrio", u"Primeiro contato com a bola", u"Atividades lúdicas",
+                   u"Socialização", u"Desenvolvimento motor"],
                   u"Segunda a sábado, manhã e tarde") +
           turma_bloco("sub9", u"Sub-9", u"7 a 9 anos",
-                      u"Idade de ouro para os fundamentos. É quando o gesto técnico é assimilado com mais facilidade.",
-                      [u"Domínio, passe e condução", u"Finalização e chute", u"Noções de jogo coletivo",
-                       u"Disciplina e rotina de treino", u"Primeiros festivais"],
+                      u"É hora de começar a transformar a brincadeira em aprendizado. A criança passa a desenvolver fundamentos importantes e entender melhor como funciona o jogo coletivo.",
+                      [u"Passe e domínio", u"Condução de bola", u"Finalização",
+                       u"Noções de jogo coletivo", u"Disciplina e rotina"],
                       u"Segunda a sábado, manhã e tarde") +
           turma_bloco("sub12", u"Sub-12", u"10 a 12 anos",
-                      u"O jogo começa a ficar tático. O aluno passa a entender espaço, função e tomada de decisão.",
-                      [u"Posicionamento e movimentação", u"Leitura de jogo", u"Trabalho por posição",
-                       u"Campeonato interno", u"Preparação física introdutória"],
+                      u"Com o desenvolvimento técnico, o jogador começa também a compreender melhor o jogo. As atividades passam a trabalhar posicionamento, tomada de decisão e leitura das situações dentro de campo.",
+                      [u"Posicionamento", u"Leitura de jogo", u"Trabalho por posição",
+                       u"Evolução técnica", u"Competições"],
                       u"Segunda a sábado, manhã e tarde") +
           turma_bloco("sub15", u"Sub-15", u"13 a 15 anos",
-                      u"Intensidade de competição. Categoria de quem quer levar o futebol a sério.",
-                      [u"Preparação física específica", u"Sistemas de jogo", u"Amistosos e festivais",
-                       u"Observação técnica individual", u"Orientação sobre peneiras"],
+                      u"Uma fase em que técnica, intensidade e entendimento do jogo caminham juntos. Os treinos são pensados para adolescentes que querem continuar evoluindo e vivenciar desafios maiores dentro do futebol.",
+                      [u"Preparação física", u"Intensidade", u"Fundamentos técnicos",
+                       u"Organização tática", u"Amistosos e festivais", u"Desenvolvimento competitivo"],
                       u"Segunda a sábado, manhã e tarde") + u"""
     </div>
   </div>
 </section>
 
 <section class="section section-alt">
+  <div class="wrap" style="max-width:820px">
+    <div class="head center rv">
+      <span class="eyebrow">Para todas as crianças que sonham com o futebol</span>
+      <h2>Meninas também são bem-vindas.</h2>
+      <p class="lead">O futebol é para todo mundo. Nossas turmas são mistas e organizadas por faixa etária, atendendo crianças e adolescentes de 4 a 15 anos.</p>
+      <p class="lead">Se sua filha gosta de futebol, quer começar a jogar ou simplesmente quer experimentar uma nova atividade, ela também pode participar.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
   <div class="wrap">
     <div class="head center rv">
-      <span class="eyebrow">Não sabe a turma?</span>
-      <h2>A gente descobre em 1 minuto</h2>
-      <p class="lead">Informe a idade do atleta e o sistema já indica a categoria certa e mostra os horários com vaga.</p>
+      <span class="eyebrow">Não sabe qual é a turma?</span>
+      <h2>A gente descobre em um minuto</h2>
+      <p class="lead">Informe a idade do seu filho e o sistema já indica a categoria mais adequada para a fase dele e mostra os horários com vaga.</p>
     </div>
     <div class="booking rv" data-booking></div>
   </div>
@@ -204,19 +215,19 @@ PAGINAS["turmas.html"] = dict(
 # ---------------------------------------------------------- ESTRUTURA
 PAGINAS["estrutura.html"] = dict(
     title=u"Estrutura e localização | Escola de Futebol SPFC Guarulhos",
-    desc=u"Campo, vestiários e espaço para os pais acompanharem o treino. Veja a estrutura da Escola Oficial do São Paulo FC em Guarulhos e como chegar.",
+    desc=u"Campo, vestiários e espaço para os responsáveis acompanharem o treino. Veja a estrutura da Escola Oficial do São Paulo FC em Guarulhos e como chegar.",
     nav="estrutura.html",
-    corpo=hero(u"Estrutura",
-               u"Onde o time <span class='txt-red'>treina de verdade</span>",
-               u"Campo, vestiário, material oficial e um espaço pensado para a família acompanhar o treino de perto.") + u"""
+    corpo=hero(u"Um lugar para o seu filho viver o futebol",
+               u"Aqui, quem está fora do campo <span class='txt-red'>também faz parte</span>",
+               u"Enquanto seu filho treina, você pode acompanhar a atividade em um espaço reservado para os responsáveis. Nossa estrutura foi pensada para proporcionar uma experiência confortável para toda a família.") + u"""
 <section class="section">
   <div class="wrap">
     <div class="gal rv">
-      <figure><span class="ph">&#9917;</span><figcaption>Campo oficial</figcaption></figure>
+      <figure><span class="ph">&#9917;</span><figcaption>Campo para os treinos</figcaption></figure>
       <figure><span class="ph">&#127967;</span><figcaption>Vestiários</figcaption></figure>
-      <figure><span class="ph">&#128101;</span><figcaption>Espaço para os pais</figcaption></figure>
+      <figure><span class="ph">&#128101;</span><figcaption>Espaço para os responsáveis</figcaption></figure>
       <figure><span class="ph">&#128083;</span><figcaption>Uniforme oficial</figcaption></figure>
-      <figure><span class="ph">&#127942;</span><figcaption>Campeonato interno</figcaption></figure>
+      <figure><span class="ph">&#127942;</span><figcaption>Campeonatos internos</figcaption></figure>
       <figure><span class="ph">&#129351;</span><figcaption>Festivais</figcaption></figure>
       <figure><span class="ph">&#9970;</span><figcaption>Material de treino</figcaption></figure>
       <figure><span class="ph">&#128241;</span><figcaption>Secretaria</figcaption></figure>
@@ -232,10 +243,10 @@ PAGINAS["estrutura.html"] = dict(
       <h2>Tudo o que o treino pede</h2>
     </div>
     <div class="grid g-3">
-      <article class="card rv"><div class="ico">&#9917;</div><h3>Campo</h3><p>Espaço adequado para treino de todas as categorias, com material completo de treinamento.</p></article>
-      <article class="card rv rv-d1"><div class="ico">&#128704;</div><h3>Vestiário</h3><p>Para o atleta trocar de roupa antes e depois do treino com conforto e segurança.</p></article>
-      <article class="card rv rv-d2"><div class="ico">&#128101;</div><h3>Área dos pais</h3><p>Lugar reservado para acompanhar o treino sem interferir no trabalho da comissão.</p></article>
-      <article class="card rv rv-d3"><div class="ico">&#128083;</div><h3>Uniforme oficial</h3><p>Kit de treino com a identidade do São Paulo FC, do jeito que o aluno merece vestir.</p></article>
+      <article class="card rv"><div class="ico">&#9917;</div><h3>Campo para os treinos</h3><p>Um espaço preparado para que os alunos possam treinar e evoluir.</p></article>
+      <article class="card rv rv-d1"><div class="ico">&#128704;</div><h3>Vestiários</h3><p>Estrutura para os alunos antes e depois das atividades.</p></article>
+      <article class="card rv rv-d2"><div class="ico">&#128101;</div><h3>Espaço para os responsáveis</h3><p>Você acompanha o treino de perto e participa desse momento.</p></article>
+      <article class="card rv rv-d3"><div class="ico">&#128083;</div><h3>Uniforme oficial</h3><p>Seu filho entra em campo com a identidade do São Paulo FC.</p></article>
       <article class="card rv"><div class="ico">&#128717;</div><h3>Secretaria</h3><p>Atendimento presencial para matrícula, dúvidas e organização das turmas.</p></article>
       <article class="card rv rv-d1"><div class="ico">&#128663;</div><h3>Acesso fácil</h3><p>Localização central em Guarulhos, com acesso por transporte público e vias principais.</p></article>
     </div>
@@ -273,8 +284,8 @@ PAGINAS["contato.html"] = dict(
     desc=u"Fale com a secretaria da Escola Oficial de Futebol do São Paulo FC em Guarulhos: WhatsApp, telefone, e-mail e endereço.",
     nav="contato.html",
     corpo=hero(u"Contato",
-               u"Fala com a <span class='txt-red'>secretaria</span>",
-               u"Dúvida sobre turma, horário ou mensalidade? Chama no WhatsApp que a gente responde rápido — ou passa aqui pra conhecer o campo.") + u"""
+               u"Fale com a <span class='txt-red'>nossa equipe</span>",
+               u"Dúvida sobre turmas, horários ou matrícula? É só chamar no WhatsApp. Vamos explicar tudo direitinho, sem complicação.") + u"""
 <section class="section">
   <div class="wrap">
     <div class="grid g-2 rv" style="gap:2.5rem">
@@ -290,7 +301,7 @@ PAGINAS["contato.html"] = dict(
           <a class="btn btn-wa btn-lg" data-wa="Olá! Vim pelo site da escola e queria tirar uma dúvida." target="_blank" rel="noopener">Chamar no WhatsApp</a>
           <a class="btn btn-ghost" data-href="instagram" target="_blank" rel="noopener">Ver o Instagram</a>
         </div>
-        <p class="note" style="margin-top:1.8rem">Quer agendar a aula experimental? Não precisa nem chamar: <a href="agendar.html" style="color:var(--red)">marque direto por aqui</a> em 1 minuto.</p>
+        <p class="note" style="margin-top:1.8rem">Quer agendar a aula experimental? Não precisa nem chamar: <a href="agendar.html" style="color:var(--red)">marque direto por aqui</a> em menos de um minuto.</p>
       </div>
       <div class="map-box" data-map></div>
     </div>
@@ -307,7 +318,8 @@ PAGINAS["contato.html"] = dict(
       <div class="faq-item"><button class="faq-q" aria-expanded="false">Preciso agendar para conhecer a escola?</button><div class="faq-a"><p>Para a aula experimental, sim — assim garantimos que a turma do seu filho estará treinando no horário. Para só conhecer a estrutura, pode passar durante o horário da secretaria.</p></div></div>
       <div class="faq-item"><button class="faq-q" aria-expanded="false">Quais documentos são necessários para matrícula?</button><div class="faq-a"><p>Documento do responsável, documento ou certidão da criança e comprovante de endereço. A secretaria orienta sobre atestado médico no ato da matrícula.</p></div></div>
       <div class="faq-item"><button class="faq-q" aria-expanded="false">Posso remarcar a aula experimental?</button><div class="faq-a"><p>Pode. É só responder a mensagem da confirmação no WhatsApp pedindo outro dia — a gente reorganiza sem problema.</p></div></div>
-      <div class="faq-item"><button class="faq-q" aria-expanded="false">Vocês atendem outras regiões de Guarulhos?</button><div class="faq-a"><p>Recebemos alunos de toda a cidade e das cidades vizinhas. Muita família vem de bairros mais distantes por causa da chancela oficial do clube.</p></div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false">Vocês atendem outras regiões de Guarulhos?</button><div class="faq-a"><p>Sim. Recebemos alunos de toda a cidade e das cidades vizinhas.</p></div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false">Quanto custa a mensalidade?</button><div class="faq-a"><p>Os valores e planos são apresentados pela secretaria de acordo com a turma e os horários disponíveis. Quer saber? É só chamar nossa equipe pelo WhatsApp. Vamos explicar tudo direitinho, sem complicação.</p></div></div>
     </div>
   </div>
 </section>
@@ -316,7 +328,7 @@ PAGINAS["contato.html"] = dict(
 # ---------------------------------------------------------- AGENDAR
 PAGINAS["agendar.html"] = dict(
     title=u"Agendar aula experimental grátis | SPFC Guarulhos",
-    desc=u"Escolha a turma pela idade, o dia e o horário. Aula experimental gratuita na Escola Oficial do São Paulo FC em Guarulhos.",
+    desc=u"Escolha a idade do seu filho, o dia e o horário. Aula experimental gratuita na Escola Oficial do São Paulo FC em Guarulhos, sem compromisso de matrícula.",
     nav="agendar.html",
     robots="noindex, follow",
     corpo=u"""<section class="hero" style="min-height:auto;padding:calc(var(--header-h) + 4rem) 0 3rem">
@@ -325,7 +337,7 @@ PAGINAS["agendar.html"] = dict(
   <div class="wrap" style="display:block;text-align:center">
     <span class="eyebrow" style="justify-content:center">Aula experimental gratuita</span>
     <h1 style="font-size:clamp(2.2rem,5.4vw,4rem)" data-split>Escolha o dia do <span class="txt-red">primeiro treino</span></h1>
-    <p class="lead" style="margin-inline:auto">Três passos rápidos. Só aparecem dias e horários que a escola liberou — e você vê na hora quantas vagas restam.</p>
+    <p class="lead" style="margin-inline:auto">Selecione a idade do seu filho e veja os horários disponíveis para a aula experimental. Sem compromisso de matrícula: primeiro vocês conhecem a escola, depois decidem juntos.</p>
   </div>
 </section>
 
@@ -333,9 +345,13 @@ PAGINAS["agendar.html"] = dict(
   <div class="wrap">
     <div class="booking rv" data-booking></div>
     <div class="grid g-3" style="margin-top:3rem">
-      <article class="card rv"><div class="ico">&#128176;</div><h3>Não custa nada</h3><p>A experimental é gratuita e não gera compromisso de matrícula.</p></article>
-      <article class="card rv rv-d1"><div class="ico">&#9917;</div><h3>Treino de verdade</h3><p>Seu filho entra na turma da idade dele e treina junto com os alunos.</p></article>
-      <article class="card rv rv-d2"><div class="ico">&#128172;</div><h3>Confirmação na hora</h3><p>Depois de reservar, a confirmação sai direto no WhatsApp da secretaria.</p></article>
+      <article class="card rv"><div class="ico">&#128176;</div><h3>A aula é gratuita</h3><p>A primeira aula experimental não tem custo e não obriga a família a realizar a matrícula.</p></article>
+      <article class="card rv rv-d1"><div class="ico">&#9917;</div><h3>Ele entra em campo</h3><p>Seu filho participa do treino junto com a turma correspondente à idade dele. E você pode acompanhar tudo de perto.</p></article>
+      <article class="card rv rv-d2"><div class="ico">&#128172;</div><h3>Depois vocês conversam</h3><p>Ao final da aula, o professor conversa com vocês e explica como foi a participação da criança.</p></article>
+    </div>
+    <div class="grid g-2 rv" style="margin-top:2rem">
+      <div class="quote"><p>"O que levar para a aula? Roupa confortável para atividade física, chuteira ou tênis, meião, caneleira e garrafinha de água. E, principalmente: vontade de jogar bola. &#9917;"</p><footer><span class="av">&#9917;</span><span><b>O que levar</b><small>Secretaria da unidade</small></span></footer></div>
+      <div class="quote"><p>"Seu filho não precisa chegar sabendo jogar. Não é necessário ter experiência anterior. Todo jogador começa de algum lugar."</p><footer><span class="av">&#128077;</span><span><b>Nunca jogou?</b><small>Sem problema</small></span></footer></div>
     </div>
   </div>
 </section>
