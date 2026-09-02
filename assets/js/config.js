@@ -9,18 +9,18 @@ window.SPFC = {
      >>> TROCAR PELO NÚMERO REAL DA ESCOLA ANTES DE SUBIR <<<     */
   whatsapp: "5511000000000",
 
-  telefones: ["(11) 2441-4460", "(11) 4964-1772"],
+  telefones: ["(11) 2451-1789"],
   email: "spfc.guarulhos@uol.com.br",
   instagram: "https://www.instagram.com/spfc.guarulhos/",
   facebook: "https://www.facebook.com/spfc.escoladefutebol.3/",
 
   endereco: {
-    rua: "Rua Soldado João Espinardi, 80",
+    rua: "Rua Soldado João Espinardi, 101",
     bairro: "Vila Silveira",
     cidade: "Guarulhos",
     uf: "SP",
     cep: "07093-010",
-    mapsQuery: "Escola de Futebol SPFC Guarulhos, Rua Soldado João Espinardi, 80, Guarulhos SP"
+    mapsQuery: "Escola de Futebol SPFC Guarulhos, Rua Soldado João Espinardi, 101, Guarulhos SP"
   },
 
   /* ---- Backend (Google Apps Script) ---------------------------
