@@ -250,7 +250,7 @@ p{margin:0 0 1em}
 .card p{color:var(--mute);font-size:.95rem;margin:0}
 
 /* ---------- Ícones (substituem os emojis) ---------- */
-svg.i{display:block;flex-shrink:0}
+svg.i{display:inline-block;flex-shrink:0;width:1em;height:1em;vertical-align:-0.15em}
 .card .ico svg.i{width:26px;height:26px}
 .info-list .ic{color:var(--red)}
 .info-list .ic svg.i{width:20px;height:20px}
@@ -259,6 +259,7 @@ svg.i{display:block;flex-shrink:0}
 .quote .av svg.i{width:20px;height:20px}
 .badge b{display:inline-flex;align-items:center;gap:.35rem}
 .badge svg.i{width:16px;height:16px}
+.hero-note svg.i{width:16px;height:16px;color:#7CD98B;vertical-align:-3px;margin-right:2px}
 
 /* ---------- Números ---------- */
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;text-align:center}
