@@ -126,7 +126,7 @@ p{margin:0 0 1em}
 }
 .header .bar{display:flex;align-items:center;gap:1.4rem;height:var(--header-h)}
 .brand{display:flex;align-items:center;gap:.7rem;margin-right:auto}
-.brand svg{width:42px;height:auto;filter:drop-shadow(0 4px 10px rgba(0,0,0,.6))}
+.brand img{width:42px;height:auto;filter:drop-shadow(0 4px 10px rgba(0,0,0,.6))}
 .brand b{
   font-family:var(--ff-display);font-weight:800;text-transform:uppercase;
   font-size:1.05rem;line-height:1;letter-spacing:.02em;display:block;

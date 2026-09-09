@@ -5,9 +5,8 @@
 window.SPFC = {
 
   /* ---- Contato ------------------------------------------------
-     whatsapp: só números, com 55 + DDD. Ex.: 5511999998888
-     >>> TROCAR PELO NÚMERO REAL DA ESCOLA ANTES DE SUBIR <<<     */
-  whatsapp: "5511000000000",
+     whatsapp: só números, com 55 + DDD. Ex.: 5511999998888        */
+  whatsapp: "5511999538265",
 
   telefones: ["(11) 2451-1789"],
   email: "spfc.guarulhos@uol.com.br",
