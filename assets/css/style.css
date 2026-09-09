@@ -244,10 +244,21 @@ p{margin:0 0 1em}
 .card .ico{
   width:52px;height:52px;border-radius:12px;display:grid;place-items:center;
   background:rgba(254,0,0,.12);border:1px solid rgba(254,0,0,.3);margin-bottom:1.1rem;
-  font-size:1.5rem;
+  font-size:1.5rem;color:var(--red);
 }
 .card h3{margin-bottom:.5rem}
 .card p{color:var(--mute);font-size:.95rem;margin:0}
+
+/* ---------- Ícones (substituem os emojis) ---------- */
+svg.i{display:block;flex-shrink:0}
+.card .ico svg.i{width:26px;height:26px}
+.info-list .ic{color:var(--red)}
+.info-list .ic svg.i{width:20px;height:20px}
+.gal .ph svg.i{width:2.6rem;height:2.6rem}
+.quote .av{color:#fff}
+.quote .av svg.i{width:20px;height:20px}
+.badge b{display:inline-flex;align-items:center;gap:.35rem}
+.badge svg.i{width:16px;height:16px}
 
 /* ---------- Números ---------- */
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;text-align:center}
